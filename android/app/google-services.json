@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "271352965195",
+    "project_id": "o-msg-00",
+    "storage_bucket": "o-msg-00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271352965195:android:cdb55961f642a1ab1905ce",
+        "android_client_info": {
+          "package_name": "pk.nic.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271352965195-s08a2ba1tamsapo0p2s7fq7vpqokf333.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pk.nic.chattingapp",
+            "certificate_hash": "c7124b88e4dd175cdfe0647ec1034d37a69980ce"
+          }
+        },
+        {
+          "client_id": "271352965195-pmbrmh50k73kgn60fqsg5iog3jg1eb06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdAqB2Jg3AoiNwXqa1pN4Eg_5-yI_Lpv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271352965195-pmbrmh50k73kgn60fqsg5iog3jg1eb06.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271352965195-ukptoivo4hb0hgfjtsfu05aokh5usrqv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pk.nic.chattingapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
