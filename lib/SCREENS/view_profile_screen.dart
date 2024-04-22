@@ -79,7 +79,7 @@ class _ViewProfileScreenState extends State<ViewProfileScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('About:  ', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),),
+                    const Text('About:  ', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),),
                     Text(
                       widget.user.about,
                       style: const TextStyle(color: Colors.black54, fontSize: 16),

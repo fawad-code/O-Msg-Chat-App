@@ -218,7 +218,6 @@ class _ChatScreenState extends State<ChatScreen> {
                         color: Colors.deepPurple,
                       )),
                   Expanded(
-
                       child: TextField(
                         cursorColor: Colors.deepPurple,
                     controller: _textController,
@@ -283,7 +282,13 @@ class _ChatScreenState extends State<ChatScreen> {
           MaterialButton(
             onPressed: () {
               if (_textController.text.isNotEmpty) {
-                APIs.sendMessage(widget.user, _textController.text, Type.text);
+                if(_list.isEmpty){
+                  //on first msg add user to my_user collections of chat user
+                  APIs.sendFirstMsg(widget.user, _textController.text, Type.text);
+                }else {
+                  //simply send msg
+                  APIs.sendMessage(widget.user, _textController.text, Type.text);
+                }
                 _textController.text = '';
               }
             },

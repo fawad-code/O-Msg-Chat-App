@@ -17,4 +17,5 @@ class Dialogs {
       builder: (_) => Center(child: CircularProgressIndicator(color: Colors.deepPurple.shade300,)),
     );
   }
+
 }

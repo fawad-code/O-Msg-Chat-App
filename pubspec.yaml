@@ -44,7 +44,12 @@ dependencies:
   image_picker: ^1.0.7
   firebase_storage: ^11.6.6
   keyboard_emoji_picker: ^1.0.3
-
+  #for accessing firebase msg (push notifications)
+  firebase_messaging: ^14.8.2
+  #for calling rest APIs
+  http: ^1.2.1
+  #for creating notification channel
+  flutter_notification_channel: ^3.1.0
 
 dev_dependencies:
   flutter_test:
